@@ -12,7 +12,7 @@
 
 5.Somebody had a conflict and decided to transfer registration to someone else. Use list subscripting to change the sixth element to `Amal`. Print the contents of the collection.
 
-6.Call `removeLast()` on `registrationList`. If done correctly, this should remove Amal from the collection. Store the result of `removeLast()` into a new constant `deletedItem`, then print `deletedItem`.
+6.Call `removeLast()` on `registrationList`. If done correctly, this should remove Amal from the collection. Store the result of `removeLast()` into a new constant ``,deletedItem then print `deletedItem`.
 
 #### Your fitness tracking app shows users a list of possible challenges, grouped by activity type (i.e. walking challenges, running challenges, calisthenics challenges, weightlifting challenges, etc.) A challenge could be as simple as "Walk 3 miles a day" or as intense as "Run 5 times a week."
 
