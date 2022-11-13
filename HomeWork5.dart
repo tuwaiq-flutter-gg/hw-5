@@ -108,6 +108,7 @@ main() {
   Map<String, String> state_capitals = {
     'Alabama': 'Montgomery',
     'California': 'Sacramento',
+    "Riyadh": "Riyadh",
     'Hawaii': 'Honolulu'
   };
   for (var element in state_capitals.entries) {
@@ -115,17 +116,19 @@ main() {
   }
 
   //[25] solution
-  List<String> movements = ['Flexion', 'Extension', 'Adduction', 'Supination'];
+  List<String> movements = ["Pull", "Sprint", "Push", "Run", "Walk", "Squat"];
   for (var element in movements) {
     print(element);
   }
 
   //[26] solution
   Map<String, int> movementHeartRates = {
-    movements[0]: 75,
-    movements[1]: 100,
-    movements[2]: 80,
-    movements[3]: 90
+    movements[0]: 97,
+    movements[1]: 94,
+    movements[2]: 100,
+    movements[3]: 85,
+    movements[4]: 77,
+    movements[5]: 89,
   };
   movementHeartRates.forEach((key, value) {
     print('Your average heart rate during $key is $value');
@@ -184,13 +187,13 @@ main() {
   //---Map<String, String> of capitals is already declared in [24] solution
   for (var element in state_capitals.entries) {
     print('${element.key} Capital is ${element.value}');
-    if (element.key == 'California') {
+    if (element.key == 'Riyadh') {
       print("I found my home!");
     }
   }
 
   //[31] solution
-  var lowHR = 77;
+  var lowHR = 80;
   var highHR = 95;
   movementHeartRates.forEach((key, value) {
     if (value > lowHR && value < highHR) {
