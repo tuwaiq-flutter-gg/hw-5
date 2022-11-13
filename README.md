@@ -51,27 +51,40 @@ var shapesArray = ["Circle", "Square", "Triangle"];
     var colorsArray = ["Red", "Green", "Blue"]; 
 ```
 
-### Lopps
-
+### Loops
+    
+#### Part One 
+    
 22.Create a for-in loop that loops through values 1 to 100, and prints each of the values.
 
 23.Create a for-in loop that loops through each of the characters in the tuwaiq string, and prints each of the values alongside the index.
 
 24.Create a [String: String] map, where the keys are names of states and the values are their capitals. Include at least three key/value pairs in your collection, then use a for-in loop to iterate over the pairs and print out the keys and values in a sentence.
 
+#### Part Two 
+    
 25.Suppose you try to build an app contains a list of different movements that can be tracked. You want to display each item in the list to the user. Use a for-in loop to loop through movements below and print each movement.
 
 26.Now suppose your app uses a map to keep track of your average heart rate during each of the movements in movements. The keys correspond to the movements listed above, and the values correspond to the average heart rate that your fitness tracker has monitored during the given movement. Loop through movementHeartRates below, printing statements telling the user his/her average heart rate during each exercise.
 
+#### Part Three 
+    
 27.Create a while loop that simulates rolling a 6-sided dice repeatedly until a 1 is rolled. After each roll, print the value. (Hint: use nextInt(1...6) to generate a random number between 1 and 6).
+    
+#### Part Four 
 
 #### You may want your fitness tracking app to help runners track and improve their cadence. Running cadence is the number of steps a runner takes in a minute. To help with this, you decide to let the user input a cadence, after which your app will play a sound at each interval they need to take another step.
-28.For this exercise, you'll simulate a "test run" of the cadence feature of your app. Use a while loop to print "Take a step" to the console 10 times. Once you've successfully printed "Take a step" to the console 10 times, add the following code to the end of your while loop: Thread.sleep(forTimeInterval: 60/cadence). This will put a pause between each itertion of the while loop so that the print statements actually occur at the proper cadence.
+28.For this exercise, you'll simulate a "test run" of the cadence feature of your app. Use a while loop to print "Take a step" to the console 10 times. Once you've successfully printed "Take a step" to the console 10 times, add the following code to the end of your while loop: `Thread.sleep(forTimeInterval: 60/cadence)`. This will put a pause between each itertion of the while loop so that the print statements actually occur at the proper cadence.
 
+#### Part Five
+    
 29.Create a for-in loop that will loop through alphabet. Inside the loop, print every other letter by continuing to the next iteration if you are on a letter you do not wish to print. (Hint: You can use the isMultiple(of:) method on Int to only print even indexed characters).
 
-30.Create a [String: String] dictionary where the keys are names of states and the values are their capitals. Include at least three key/value pairs in your collection, with one of them being your home state. Now loop through this dictionary again, printing out the keys and values in a sentence, but add an if statement that will check if the current iteration is your home state. If it is, print("I found my home!") and break out of the loop.
+30.Create a [String: String] map where the keys are names of states and the values are their capitals. Include at least three key/value pairs in your collection, with one of them being your home state. Now loop through this map again, printing out the keys and values in a sentence, but add an if statement that will check if the current iteration is your home state. If it is, print("I found my home!") and break out of the loop.
 
-#### The Heart Rate App: You decide you want your app's users to be able to put in a heart rate range they would like to hit, and then you want the app to suggest movements where historically the user has reached that heart rate range. The dictionary movementHeartRates below contains keys corresponding to the movements that the app has tracked, and values corresponding to the average heart rate of the user that your fitness tracker has monitored historically during the given movement.
-31.Loop through movementHeartRates below and if the heart rate doesn't fall between lowHR and highHR, continue to the next movement and heart rate. Otherwise, print "You could go ."
+#### Part Six
+    
+#### The Heart Rate App: You decide you want your app's users to be able to put in a heart rate range they would like to hit, and then you want the app to suggest movements where historically the user has reached that heart rate range. The map `movementHeartRates` below contains keys corresponding to the movements that the app has tracked, and values corresponding to the average heart rate of the user that your fitness tracker has monitored historically during the given movement.
+    
+31.Loop through `movementHeartRates` below and if the heart rate doesn't fall between lowHR and highHR, continue to the next movement and heart rate. Otherwise, print "You could go ."
   
