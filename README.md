@@ -74,8 +74,7 @@ var shapesArray = ["Circle", "Square", "Triangle"];
 #### Part Four 
 
 #### You may want your fitness tracking app to help runners track and improve their cadence. Running cadence is the number of steps a runner takes in a minute. To help with this, you decide to let the user input a cadence, after which your app will play a sound at each interval they need to take another step.
-28.For this exercise, you'll simulate a "test run" of the cadence feature of your app. Use a while loop to print "Take a step" to the console 10 times. Once you've successfully printed "Take a step" to the console 10 times, add the following code to the end of your while loop: `Thread.sleep(forTimeInterval: 60/cadence)`. This will put a pause between each itertion of the while loop so that the print statements actually occur at the proper cadence.
-
+28.For this exercise, you'll simulate a "test run" of the cadence feature of your app. Use a while loop to print "Take a step" to the console 10 times. Once you've successfully printed "Take a step" to the console 10 times.
 #### Part Five
     
 29.Create a for-in loop that will loop through alphabet. Inside the loop, print every other letter by continuing to the next iteration if you are on a letter you do not wish to print. (Hint: You can use the isMultiple(of:) method on Int to only print even indexed characters).
