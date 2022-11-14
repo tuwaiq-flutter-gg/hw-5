@@ -28,7 +28,7 @@ void main(List<String> args) {
   List<String> committed = [];
 
   if (committed.isEmpty) {
-    print("you need to commited to a challenges");
+    print("you need to commited to a challnges");
   } else if (committed.length == 1) {
     print("you  have ${committed[0]}  challnges");
   } else {
