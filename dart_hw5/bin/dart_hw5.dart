@@ -1,3 +1,5 @@
+import 'dart:math';
+
 void main(List<String> args) {
   var registrationList = [];
   registrationList.add("sara");
@@ -66,7 +68,87 @@ void main(List<String> args) {
   };
 
   print(MabList);
-  for (var i = 0; i <= 100; i++) {
+  var sre;
+  String tuwaiq = "tuwaiq";
+
+  List splist = tuwaiq.split("");
+Map<String, String> CM = {
+      "njran ": "njran",
+      "abha": "abha",
+      "maka": "maka"
+    };
+  for (var i = 1; i <= 100; i++) {
     print(i);
   }
+
+  for (sre in splist) {
+    print(sre);
+
+    
+
+    for (var i in CM.keys) {
+      print(CM[i]);
+    }
+  }
+  List M = ["walk", "sprint"];
+  for (var i in M) {
+    print(i);
+  }
+
+  Map<String, int> AVGhr = {M[0]: 80, M[1]: 120};
+
+  for (var i in AVGhr.keys) {
+    print("you AVG hart rate is ${M}");
+  }
+
+  int dice = 0;
+  while (dice != 1) {
+    dice = Random().nextInt(6);
+    print(dice);
+  }
+  var i = 1;
+
+  while (i < 11) {
+    print(i);
+
+    i++;
+  }
+  var alphabet = "ABCDEFGHIJKLMNOPQRSTYVWXYZ"; 
+  for (var y in alphabet.split("")){
+if (y != "z" && y != "a" && y != "j") {
+      print(y);
+    }
+  }
+
+ for (var c in CM.keys) {
+    print("state is $c and the capital is ${CM[c]}");
+
+    if (c == "Najran") {
+      print("I found my home!");
+      break;
+    }
+  }
+
+  
+
+  Map<String, int> movementHR = {
+    "runing": 100,
+    "sprin": 115,
+    "walk": 90
+  };
+
+  var lowHR = 101;
+  var highHR = 125;
+
+  for (var m in movementHR.keys) {
+    if (movementHR[m]! >= lowHR && movementHR[m]! <= highHR) {
+      print("you can hit the goal while you are $m, You could go ");
+    }
+  }
 }
+
+
+
+
+
+
