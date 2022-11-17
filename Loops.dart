@@ -3,7 +3,6 @@ import 'dart:math';
 void main(List<String> args) {
   
   // Part One 
-
   // 22
 
   for (var i = 0; i < 100; i++) {
